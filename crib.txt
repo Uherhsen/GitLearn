@@ -1,22 +1,36 @@
 BASH crib  - шпора по командной строке и гит хабу
 
+git config --global user.name "Имя"
+git config --global user.email "мыло@намыле.ru"
+
 индексация:
 git add -A все файлы
 git add * все файлы
 git add . все файлы для коммита, но только в текущей директории
+
 коммит:
 git commit -m"коментарий-komment"
+
 отображение статуса:
 git status
+
 вызов редактора:
 gitk - дефолтный редактор историй коммитов
+
 см. историю:
 git log
 ctr+z - выйти
-флаги для git log:
+
+флаги для git log
 --pretty=oneline - в одну строку
 --max-count=3 - вывести последние три
 --author= "Имя юзера" (Test local User)
+--date=short
+пример формтирования:
+git log --pretty=format:"%h - %s : %ad [%an]" --date=short
+
+
+
 _____команды для командной строки:____
 
 mkdir - создать директорию
