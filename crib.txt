@@ -1,7 +1,5 @@
 BASH crib  - шпора по командной строке и гит хабу
 
-тестовая строка для отката: КАКАШКА!!!!!!
-
 глобалныке настройки:
 git config --global user.name "Имя"
 git config --global user.email "мыло@намыле.ru"
@@ -37,6 +35,7 @@ git log --pretty=format:"%h - %s : %ad [%an]" --date=short
 
 ЧЕКАУТ (откат):
 git checkout хеш (копируется из лога)
+git checkout master -вероятно возврат к мастер ветке
 
 _____команды для командной строки:____
 
