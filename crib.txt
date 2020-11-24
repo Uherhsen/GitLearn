@@ -34,7 +34,7 @@ ctr+z - выйти
 --date=short
 пример формтирования:
 git log --pretty=format:"%h - %s : %ad [%an]" --date=short
-git log --pretty=oneline --max-count=3
+git log --pretty=oneline --max-count=7
 ______________________________________________________
 ЧЕКАУТ (перемещение по комитам):
 git checkout хеш(копируется из лога) или имя файла
