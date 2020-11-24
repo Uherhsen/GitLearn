@@ -1,7 +1,13 @@
 BASH crib  - шпора по командной строке и гит хабу
 
+тестовая строка для отката: КАКАШКА!!!!!!
+
+глобалныке настройки:
 git config --global user.name "Имя"
 git config --global user.email "мыло@намыле.ru"
+локальные настройки (без флага --global) делаются для проэкта в его директории, посмотреть можно в файле config в папке .git:
+git config user.name "Имя"
+git config user.email "мыло@намыле.ru"
 
 индексация:
 git add -A все файлы
